@@ -12,15 +12,14 @@ public class Main {
         CuentaBancaria cuentaJuan;
         double saldo;
 
-        operar(null, null);
-    }
-
-    private static void operar(Float cantidad, Object par1) {
-        CuentaBancaria cuentaJuan;
-        double saldo;
         cuentaJuan = new CuentaBancaria("Juan Pérez","1000-2365-85-1230456789",7200);
         saldo = cuentaJuan.estado();
         System.out.println("El saldo actual es"+ saldo );
+
+        operar(cuentaJuan, null);
+    }
+
+    private static void operar(CuentaBancaria cuentaJuan, Float cantidad) {
         try {
             cuentaJuan.retirar(2300);
         } catch (Exception e) {
