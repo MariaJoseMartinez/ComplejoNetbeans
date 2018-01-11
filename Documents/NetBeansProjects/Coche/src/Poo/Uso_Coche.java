@@ -17,7 +17,7 @@ public class Uso_Coche {
         Coche micoche=new Coche ();
         micoche.establece_color("marrón");
         
-        System.out.println(micoche.dime_color());
+        
         micoche.configura_asientos("si");
         System.out.println(micoche.dime_asientos());
     }
