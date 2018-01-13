@@ -19,7 +19,7 @@ public class Supuesto_3 {
     Scanner teclado = new Scanner (System.in);                         
         int numero;
         int i;       
-        System.out.println("Introducir un número: " );
+        System.out.println("Introducir  número: " );
             numero = teclado.nextInt();
                 for(i=2;i<=numero;i++)  {
 
