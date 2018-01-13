@@ -17,14 +17,14 @@ public class Supuesto_3 {
      */
     public static void main(String[] args) {
     Scanner teclado = new Scanner (System.in);                         
-        int numero;
+        int num;
         int i;       
         System.out.println("Introducir  número: " );
-            numero = teclado.nextInt();
-                for(i=2;i<=numero;i++)  {
+            num = teclado.nextInt();
+                for(i=2;i<=num;i++)  {
 
-                while(numero%i==0){
-                numero=numero/i;
+                while(num%i==0){
+                num=num/i;
                 System.out.print(i+" , ");
               
                 }
